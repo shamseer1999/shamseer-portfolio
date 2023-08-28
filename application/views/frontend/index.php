@@ -275,47 +275,75 @@
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row">
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-sm-3 col-lg-2">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/figma.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <!-- <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>Figma</b></span> -->
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
+          <div class="col-sm-3 col-lg-2">
+            <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/react.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <!-- <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>React Js</b></span> -->
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
+          <div class="col-sm-3 col-lg-2">
+            <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/php.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <!-- <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>PHP</b></span> -->
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-sm-3 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/python.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span> -->
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <!-- <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>Python</b></span> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/laravel.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-people"></i></span> -->
+              </div>
+              <div class="counter-num">
+                <!-- <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>Laravel</b></span> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-2">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/django.png')?>" alt=""></span>
+                <!-- <span class="ico-circle"><i class="bi bi-award"></i></span> -->
+              </div>
+              <div class="counter-num">
+                <!-- <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <!-- <span class="counter-text" style="font-size: large;"><b>Django</b></span> -->
               </div>
             </div>
           </div>
