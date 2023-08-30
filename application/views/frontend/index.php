@@ -361,7 +361,7 @@
                 Portfolio
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exploring Creativity: A Showcase of My Diverse Portfolio.
               </p>
               <div class="line-mf"></div>
             </div>
@@ -370,144 +370,144 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/work-1.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/maijla.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="<?=base_url('assets/img/work-1.jpg')?>" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/maijla.jpg')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <h2 class="w-title">Maijla Cleaning Service</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegorytext-dark">Maijla, Where Cleaning Meets Convenience.</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/work-2.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/gulf-pack.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="<?=base_url('assets/img/work-2.jpg')?>" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/gulf-pack.jpg')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                    <h2 class="w-title">Gulf Pack</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory text-dark">Gulf Pack, Eco-Friendly Packaging Solutions.</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/akgroup.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/akgroup.png')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <h2 class="w-title">AK Group</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory text-dark">AK Group, Wholesale Veg and Fruit Partner.</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/work-4.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/unity-app.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="<?=base_url('assets/img/work-4.jpg')?>" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/unity-app.png')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <h2 class="w-title">Unity Peace</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory text-dark">Unity Peace, Your Islamic Prayer App.</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/work-5.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/start-right.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/start-right.png')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <h2 class="w-title">Start Right</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory text-dark">Start Right, Igniting business evolution.</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/work-6.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="<?=base_url('assets/img/works/skillour.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="<?=base_url('assets/img/work-6.jpg')?>" alt="" class="img-fluid">
+                  <img src="<?=base_url('assets/img/works/skillour.png')?>" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
+                    <h2 class="w-title">Skillour</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                      <span class="w-ctegory text-dark">Skillour, Navigating Your Next Opportunity</span>
                     </div>
                   </div>
-                  <div class="col-sm-4">
+                  <!-- <div class="col-sm-4">
                     <div class="w-like">
                       <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
