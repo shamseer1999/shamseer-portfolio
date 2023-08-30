@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">SHAMSEER</a></h1>
+      <h1 class="logo"><a href="<?=base_url()?>">SHAMSEER</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -46,8 +46,8 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -63,7 +63,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -278,7 +278,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/figma.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/figma.png')?>" alt="Figma" title="Figma"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
@@ -290,7 +290,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/react.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/react.png')?>" alt="React Js" title="React Js"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
@@ -302,7 +302,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/php.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/php.png')?>" alt="PHP" title="PHP"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-check"></i></span> -->
               </div>
               <div class="counter-num">
@@ -314,7 +314,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/python.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/python.png')?>" alt="Python" title="Python"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span> -->
               </div>
               <div class="counter-num">
@@ -326,7 +326,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/laravel.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/laravel.png')?>" alt="Laravel" title="Laravel"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-people"></i></span> -->
               </div>
               <div class="counter-num">
@@ -338,7 +338,7 @@
           <div class="col-sm-3 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/django.png')?>" alt=""></span>
+                <span class="ico-circle"><img src="<?=base_url('assets/img/languages/django.png')?>" alt="Django" title="Django"></span>
                 <!-- <span class="ico-circle"><i class="bi bi-award"></i></span> -->
               </div>
               <div class="counter-num">
@@ -370,7 +370,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/maijla.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://maijlacleaningangels.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/maijla.jpg')?>" alt="" class="img-fluid">
                 </div>
@@ -394,7 +394,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/gulf-pack.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.gulfpackme.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/gulf-pack.jpg')?>" alt="" class="img-fluid">
                 </div>
@@ -418,7 +418,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/akgroup.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.akgroupksa.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/akgroup.png')?>" alt="" class="img-fluid">
                 </div>
@@ -442,7 +442,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/unity-app.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.unitypeace.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/unity-app.png')?>" alt="" class="img-fluid">
                 </div>
@@ -466,7 +466,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/start-right.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://startrightconsulting.ca/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/start-right.png')?>" alt="" class="img-fluid">
                 </div>
@@ -490,7 +490,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="<?=base_url('assets/img/works/skillour.png')?>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://skillour.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/skillour.png')?>" alt="" class="img-fluid">
                 </div>
@@ -518,7 +518,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(<?=base_url('assets/img/overlay-bg.jpg')?>)">
+    <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(<?=base_url('assets/img/overlay-bg.jpg')?>)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -540,7 +540,7 @@
                       </p>
                     </div>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-box">
@@ -555,21 +555,18 @@
                       </p>
                     </div>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
           </div>
         </div>
       </div>
-    </div><!-- End Testimonials Section -->
+    </div> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
+    <!-- <section id="blog" class="blog-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -680,7 +677,8 @@
           </div>
         </div>
       </div>
-    </section><!-- End Blog Section -->
+    </section> -->
+    <!-- End Blog Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(<?=base_url('assets/img/overlay-bg.jpg')?>)">
@@ -694,7 +692,7 @@
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message Us
+                        Leave a Message
                       </h5>
                     </div>
                     <div>
@@ -740,23 +738,21 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                      Ready to start a conversation? <br> Get In Touch With Me.
+                      
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
-                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                        <li><span class="bi bi-geo-alt"></span>Malappuram, Kerala</li>
+                        <li><span class="bi bi-phone"></span><a href="tel:9539406750">9539406750</a></li>
+                        <li><span class="bi bi-envelope"></span><a href="mailto:shamseertt29@gmail.com">shamseertt29@gmail.com</a></li>
                       </ul>
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://m.facebook.com/profile.php/?id=100010511524675&name=xhp_nt__fb__action__open_user" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/___p__a__b__l__o__/" target="_blank"><span class="ico-circle" ><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/shamseertt29" target="_blank"><span class="ico-circle" ><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/shamseer-tt-1320a51a9/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -776,7 +772,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright <strong>Shamseer</strong>. All Rights Reserved</p>
             <div class="credits">
               <!--
               All the links in the footer should remain intact.
@@ -784,7 +780,7 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="<?=base_url()?>"><u>shamseer</u></a>
             </div>
           </div>
         </div>
