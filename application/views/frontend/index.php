@@ -370,7 +370,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://maijlacleaningangels.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://maijlacleaningangels.com/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/maijla.jpg')?>" alt="" class="img-fluid">
                 </div>
@@ -394,7 +394,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://www.gulfpackme.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.gulfpackme.com/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/gulf-pack.jpg')?>" alt="" class="img-fluid">
                 </div>
@@ -418,7 +418,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://www.akgroupksa.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.akgroupksa.com/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/akgroup.png')?>" alt="" class="img-fluid">
                 </div>
@@ -442,7 +442,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://www.unitypeace.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://www.unitypeace.com/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/unity-app.png')?>" alt="" class="img-fluid">
                 </div>
@@ -466,7 +466,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://startrightconsulting.ca/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://startrightconsulting.ca/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/start-right.png')?>" alt="" class="img-fluid">
                 </div>
@@ -490,7 +490,7 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://skillour.com/" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://skillour.com/" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
                   <img src="<?=base_url('assets/img/works/skillour.png')?>" alt="" class="img-fluid">
                 </div>
@@ -691,12 +691,17 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="title-box-2">
+                      <?php if($this->session->flashdata('success')){
+                        ?>
+                        <div class="alert alert-success"><?=$this->session->flashdata('success')?></div>
+                        <?php
+                      }?>
                       <h5 class="title-left">
                         Leave a Message
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form action="" method="post" role="form" class="php-email-form">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -797,7 +802,7 @@
   <script src="<?=base_url('assets/vendor/glightbox/js/glightbox.min.js')?>"></script>
   <script src="<?=base_url('assets/vendor/swiper/swiper-bundle.min.js')?>"></script>
   <script src="<?=base_url('assets/vendor/typed.js/typed.min.js')?>"></script>
-  <script src="<?=base_url('assets/vendor/php-email-form/validate.js')?>"></script>
+  <!-- <script src="<?=base_url('assets/vendor/php-email-form/validate.js')?>"></script> -->
 
   <!-- Template Main JS File -->
   <script src="<?=base_url('assets/js/main.js')?>"></script>
@@ -805,3 +810,4 @@
 </body>
 
 </html>
+
